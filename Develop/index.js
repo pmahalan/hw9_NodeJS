@@ -1,8 +1,6 @@
 const fs  = require("fs");
 const inquirer = require("inquirer");
-
-const utils = require("utils");
-
+const generatedMarkdown = require("./utils/generateMarkdown");
 
 
 inquirer
@@ -74,4 +72,3 @@ inquirer
   
     });
   });
-  
